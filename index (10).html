@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodata Zalfa Zaura</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Teks berjalan */
+    .marquee {
+      font-size: 24px;
+      color: #00bfff;
+      font-weight: bold;
+    }
+
+    /* Efek galaxy gradient untuk teks */
+    .galaxy-text {
+      font-size: 28px;
+      font-weight: bold;
+      background: linear-gradient(270deg, #ff6ec4, #7873f5, #4ade80, #facc15, #ff6ec4);
+      background-size: 1000% 1000%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: galaxyMove 15s ease infinite;
+      margin-top: 20px;
+    }
+
+    @keyframes galaxyMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .biodata {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      margin: 20px auto;
+      border-radius: 15px;
+      width: 80%;
+      max-width: 500px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    }
+
+    .biodata h2 {
+      color: #87cefa;
+      margin-bottom: 10px;
+    }
+
+    .biodata p {
+      font-size: 18px;
+      margin: 8px 0;
+    }
+
+    /* Tombol Instagram */
+    .instagram-link {
+      display: inline-block;
+      margin-top: 15px;
+      text-decoration: none;
+      color: white;
+      background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .instagram-link:hover {
+      opacity: 0.8;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Teks berjalan -->
+  <marquee class="marquee">Selamat Datang Di Website Zalfa 👋🏻</marquee>
+
+  <!-- Perkenalan dengan efek galaxy -->
+  <h1 class="galaxy-text">Hai, Perkenalkan Saya Zalfa Zaura 🌌</h1>
+
+  <!-- Biodata -->
+  <div class="biodata">
+    <h2>Biodata Diri</h2>
+    <p><b>Nama:</b> Zalfa Zaura</p>
+    <p><b>Kelas:</b> XI.7</p>
+    <p><b>Hobi:</b> Menggambar ✏️🎨</p>
+    <p><b>Cita-cita:</b> Desainer 👗✨</p>
+    <p><b>Warna Favorit:</b> Biru 💙 & Coklat 🤎</p>
+    <hr style="margin:15px 0; border:1px solid #87cefa;">
+
+    <h2>Tentang Hobi Saya</h2>
+    <p>
+      Saya sangat suka <b>menggambar</b> karena bisa mengekspresikan imajinasi
+      dan ide-ide kreatif saya di atas kertas. Dengan menggambar, saya merasa
+      lebih tenang dan bahagia. Saya juga bercita-cita menjadi <b>desainer</b> agar
+      bisa menuangkan kreativitas saya ke dalam karya nyata yang bermanfaat.
+    </p>
+
+    <!-- Link Instagram -->
+    <a class="instagram-link" href="https://www.instagram.com/zzaurra_?igsh=aGpqYTdzcnFlaDAz" target="_blank">
+      🌸 Follow Instagram Saya 🌸
+    </a>
+  </div>
+
+</body>
+</html>
